@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <style>
-        #grad1 {
-            height: 400px;
-            background-color: red;
-            /* For browsers that do not support gradients */
-            background-image: linear-gradient(to top right, rgba(42, 252, 234, 0.836), rgb(20, 49, 216), rgb(120, 146, 146), green, blue, indigo, violet);
-        }
-    </style>
-</head>
-
-<body>
-
-    <div id="grad1" style="text-align:center;margin:auto;color:#888888;font-size:40px;font-weight:bold">
-        Welcome to Codingal
-    </div>
-
-</body>
-
+    <head>
+        <title> Transformation</title>
+        <style>
+            p{
+                 color: rgb(202, 218, 215);
+                 width: 200px;
+                height: 100px;
+                background-color: rgb(23, 97, 91);
+                border: 2px solid black;
+                text-decoration: underline;
+                text-transform: uppercase;
+            }
+            #p{
+                transform: rotateX(160deg);
+            }
+        </style>
+        </head>
+    <body>
+        <h1>Transformation and text decoration</h1>
+        <p>Welcome to coding</p>
+        <p id="p">Coding is fun</p>
+    </body>
 </html>
